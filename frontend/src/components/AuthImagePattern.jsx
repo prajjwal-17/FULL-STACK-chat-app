@@ -17,13 +17,14 @@ const AuthImagePattern = ({ title, subtitle }) => {
         <h2 className="text-2xl font-bold mb-4 text-white">{title}</h2>
         <p className="text-base-content/70 mb-6">{subtitle}</p>
         <a
-          href="https://discord.gg/rRjaJuW59w"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 text-lg font-bold text-white bg-primary rounded-lg shadow-md hover:bg-primary-focus transition-transform transform hover:scale-105"
-        >
-          Join Discord
+         href="https://discord.gg/rRjaJuW59w"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="inline-block px-6 py-3 text-lg font-bold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105"
+        >    
+         Join Discord
         </a>
+
         <p className="mt-4 text-sm text-base-content/60">
           Or contact me on{" "}
           <a

@@ -3,7 +3,7 @@ import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
 
 const PREVIEW_MESSAGES = [
-  { id: 1, content: "Hey! Do you like ChattyFy?", isSent: false },
+  { id: 1, content: "Hey! Do you like BuzzChat?", isSent: false },
   { id: 2, content: "Yes! Of course I do, its so cool.", isSent: true },
 ];
 
@@ -15,7 +15,7 @@ const SettingsPage = () => {
       <div className="space-y-6">
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-semibold">Themes</h2>
-          <p className="text-sm text-base-content/70">Choose a theme for your chat interface . My favourite is dark though.</p>
+          <p className="text-sm text-base-content/70">Choose a theme for your chat interface . My favourite is Luxury though.</p>
         </div>
 
         <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2">
