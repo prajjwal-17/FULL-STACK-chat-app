@@ -1,9 +1,9 @@
 import Navbar from './components/Navbar';
 import {Routes, Route, Navigate} from 'react-router-dom'
-import  {HomePage} from './pages/HomePage'
-import { SignUpPage} from './pages/SignUpPage'
+import  HomePage from './pages/HomePage'
+import SignUpPage from './pages/SignUpPage'
 import LoginPage from './pages/LoginPage'
-import { ProfilePage } from './pages/ProfilePage'
+import  ProfilePage  from './pages/ProfilePage'
 import SettingsPage from './pages/SettingPage'
 import { useAuthStore } from './store/useAuthStore'
 import { useEffect } from 'react'
