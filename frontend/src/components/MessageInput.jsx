@@ -81,7 +81,7 @@ const MessageInput = () => {
           accept='image/*'
           className='hidden'
           ref={fileInputRef}
-          onChange={{handleImageChange}}
+          onChange={handleImageChange}
            />
            <button
            type='button'
