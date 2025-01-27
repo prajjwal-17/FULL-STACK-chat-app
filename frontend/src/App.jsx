@@ -13,9 +13,9 @@ import {  useThemeStore } from './store/useThemeStore';
 
 const App=()=>{
    
-  const { authUser,checkAuth,isCheckingAuth }=useAuthStore();
+  const { authUser,checkAuth,isCheckingAuth,onlineUsers }=useAuthStore();
   // <span className="loading loading-infinity loading-lg"></span> a loader
-  
+  console.log(onlineUsers);
   const {theme}=useThemeStore();
 
   useEffect(()=>{
