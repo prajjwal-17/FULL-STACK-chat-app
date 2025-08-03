@@ -17,7 +17,7 @@ const __dirname=path.resolve();
 app.use(express.json({ limit: "10mb" }));
 app.use(cookieParser());
 app.use(cors({
-    origin : "http://localhost:5173",
+    origin : ["https://full-stack-chat-l326sv1ij-prajjwal-17s-projects.vercel.app","http://localhost:5173"],
     credentials: true,
 }));
 
@@ -37,4 +37,5 @@ if(process.env.NODE_ENV==="production"){
 server.listen(PORT,()=>{
     console.log("Server is running on port PORT: "+PORT);
     connectDB();
+
 });
