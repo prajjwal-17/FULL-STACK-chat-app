@@ -8,7 +8,7 @@ const server=http.createServer(app);
 
 const io=new Server(server, {
     cors: {
-        origin: ["https://full-stack-chat-app.vercel.app/login"],
+        origin: ["https://full-stack-chat-app.vercel.app"],
     },
 })
 
@@ -36,3 +36,4 @@ io.on("connection", (socket)=>{
 
 
 export {io, app, server};
+
